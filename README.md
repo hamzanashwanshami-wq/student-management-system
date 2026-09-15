@@ -18,12 +18,12 @@ A fully functional **Student Management System** built using **PHP**, **MySQL**,
 - **Libraries**: Select2 (for searchable dropdowns)
 
 ## 📸 Screenshots
-![Dashboard Screenshot](https://github.com/user-attachments/assets/1458f1a1-6da1-440c-8984-de26cd958a29)
----
-![View Student Screenshot](https://github.com/user-attachments/assets/a1f44e89-46e1-41a1-8c37-6731529617b1)
----
-![Add Student Screenshot](https://github.com/user-attachments/assets/5bc0e03a-4e81-4559-891e-7fb9722dcdd8)
 
+## ![Dashboard Screenshot](https://github.com/user-attachments/assets/1458f1a1-6da1-440c-8984-de26cd958a29)
+
+## ![View Student Screenshot](https://github.com/user-attachments/assets/a1f44e89-46e1-41a1-8c37-6731529617b1)
+
+![Add Student Screenshot](https://github.com/user-attachments/assets/5bc0e03a-4e81-4559-891e-7fb9722dcdd8)
 
 ## 📂 Folder Structure
 
@@ -44,48 +44,62 @@ A fully functional **Student Management System** built using **PHP**, **MySQL**,
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/sayan365/student-management-system.git
-   
-2. **Move the project to XAMPP's htdocs folder:**
 
-    - Place the cloned `student-management-system` folder inside the `htdocs` directory of your XAMPP installation.
+   ```
+2. **Move the project to XAMPP's htdocs folder:**
+   - Place the cloned `student-management-system` folder inside the `htdocs` directory of your XAMPP installation.
 
 3. **Set up the database:**
-
    - Open phpMyAdmin (usually accessible at [http://localhost/phpmyadmin](http://localhost/phpmyadmin)).
    - Create a new database (e.g., `student_system`).
    - Import the provided SQL file (`database.sql`) in the repository to set up the necessary tables.
 
 4. **Update database configurations:**
-
    - In the `db.php` file, ensure the database credentials (username, password, and database name) match your local environment.
 
 ### Running the Application
+
 1. Start XAMPP:
- - Open XAMPP and start Apache and MySQL services.
+
+- Open XAMPP and start Apache and MySQL services.
 
 3. Access the Application:
- - Go to http://localhost/student-management-system/ in your browser.
+
+- Go to http://localhost/student-management-system/ in your browser.
 
 3. Login:
- - Use your credentials to log in (configured in the database).
+
+- Use your credentials to log in (configured in the database).
 
 ### 🔄 Usage
+
 **Dashboard:** Access all main features from the main dashboard after logging in.
 **Manage Students:** Add, edit, view, or delete student information.
 **Track Attendance:** Record and view attendance details.
 **Manage Marks:** Add and view marks for each subject and student.
 **Manage Subjects:** Add, edit, view, or delete subject records.
+
 ### 🔒 Authentication and Logout
+
 Authenticated access is required. Unauthorized users are redirected to the login page. Use the "Logout" button in the sidebar to end the session.
 
 ### 🤝 Contributing
+
 Contributions are welcome! To contribute:
+
 - Fork the repository.
 - Create a branch with descriptive naming (e.g., feature/new-feature).
 - Make your changes and create a pull request.
-  
+
 ### 📄 License
-This open-source project is available under the [MIT License](LICENSE).
----
+
+## This open-source project is available under the [MIT License](LICENSE).
+
 **Author**: Sayan  
 For any inquiries, feel free to contact me via GitHub or other platforms.
+
+Final IT Project
+
+Student Management System
+
+Prepared by: hamzahhhhhhhhhh
