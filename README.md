@@ -42,10 +42,12 @@ A fully functional **Student Management System** built using **PHP**, **MySQL**,
 ### Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/sayan365/student-management-system.git
 
    ```
+
 2. **Move the project to XAMPP's htdocs folder:**
    - Place the cloned `student-management-system` folder inside the `htdocs` directory of your XAMPP installation.
 
@@ -103,3 +105,6 @@ Final IT Project
 Student Management System
 
 Prepared by: hamzahhhhhhhhhh
+
+Collaborator:ha
+GitHub: hamza77-arch
